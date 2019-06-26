@@ -1,0 +1,33 @@
+Swagger
+Actuator
+
+http://my-service-int.com/users/1
+Integration
+- server (spring boot)
+- database
+
+http://my-service-qa.com/users/1
+QA
+
+http://my-service-sbx.com/users/1
+Sandbox 
+
+Production
+http://my-service.com/users/1
+
+-----------------------------------------------
+Swagger
+1. Add dependencies to pom.xml (swagger2 and swagger-ui)
+2. Add swagger configuration bean
+3. Add @EnableSwagger2 above the @Configuration class
+
+---------------------------------------------------------
+
+Actuator
+spring boot 1 - дверь открыта, нужно много усилий, чтобы закрыть ВСЕ ДВЕРИ
+spring boot 2 - дверь закрыта, нужно искать как открыть
+
+
+
+
+
